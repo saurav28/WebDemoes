@@ -1,0 +1,11 @@
+---
+applications:
+- name: employeerest3
+  memory: 1024M
+  buildpack: java_buildpack
+
+  routes:
+  - route: employeerest3.bosh-lite.com                   
+  env:                             
+    SPRING_PROFILES_ACTIVE: cloud  
+  
