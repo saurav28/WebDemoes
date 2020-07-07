@@ -15,9 +15,11 @@ It is a user interface for the application to connect to the EmployeeRest applic
 
 A sample Java web application which connects to SAP Cloud platform's Document Service and performs some document related operations in the repository
 
-Details about Document Service can be found here https://help.sap.com/viewer/b0cc1109d03c4dc299c215871eed8c42/Cloud/en-US/e60b7e45bb57101487a881c7c5487778.html
+Details about Document Service can be found [here] 
 
 ### Demo
 
 A Spring boot application to showcase the projects i have worked upon.
 Mainly developed to learn the SpringBoot concepts
+
+[here] https://help.sap.com/viewer/b0cc1109d03c4dc299c215871eed8c42/Cloud/en-US/e60b7e45bb57101487a881c7c5487778.html
