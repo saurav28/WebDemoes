@@ -22,4 +22,6 @@ Details about Document Service can be found [here]
 A Spring boot application to showcase the projects i have worked upon.
 Mainly developed to learn the SpringBoot concepts
 
-[here] https://help.sap.com/viewer/b0cc1109d03c4dc299c215871eed8c42/Cloud/en-US/e60b7e45bb57101487a881c7c5487778.html
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+[here]: https://help.sap.com/viewer/b0cc1109d03c4dc299c215871eed8c42/Cloud/en-US/e60b7e45bb57101487a881c7c5487778.html
