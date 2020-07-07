@@ -1,5 +1,7 @@
 package org.saurav.springbootdemo;
 
+import java.util.List;
+
 import org.saurav.springbootdemo.model.Project;
 import org.saurav.springbootdemo.model.ProjectRepository;
 import org.slf4j.Logger;
@@ -22,6 +24,10 @@ public class DemoApplication {
 	 @Bean
 	  public CommandLineRunner demo(ProjectRepository repository) {
 	    return (args) -> {
+	    	 List<Project> projects =  (List<Project>) repository.findAll();
+	    	 if(projects.size() > 0) {
+	    		 return;
+	    	 }
 	      // save a few customers
 	      repository.save(new Project("Jack", "Bauer"));
 	      repository.save(new Project("Chloe", "O'Brian"));
@@ -32,7 +38,7 @@ public class DemoApplication {
 	      // fetch all customers
 	      log.info("Customers found with findAll():");
 	      log.info("-------------------------------");
-	      for (Project customer : repository.findAll()) {
+	      for (Project customer : projects) {
 	        log.info(customer.toString());
 	      }
 	      log.info("");
